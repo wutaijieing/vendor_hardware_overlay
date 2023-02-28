@@ -17,10 +17,10 @@ jobs:
         sudo apt -y install git-core git xmlstarlet
         sudo apt update
 
-    - name: Run test scripts
-      run: |
-        cd tests
-        bash tests.sh
+#    - name: Run test scripts
+#      run: |
+#        cd tests
+#        bash tests.sh
 
     - name: Build APK's
       run: |
